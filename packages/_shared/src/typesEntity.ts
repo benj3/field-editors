@@ -27,6 +27,9 @@ export type Asset = {
     title: {
       [locale: string]: string;
     };
+    description: {
+      [locale: string]: string;
+    };
     file: {
       [locale: string]: File;
     };
